@@ -1,0 +1,16 @@
+// Importing them into here. Sepearting them by categories. Variables are used throughout the SASS files so I imported them first. I clicked Watch SASS at the bottom of VS Code to automatically map and create a css file
+@import "./variables";
+@import "./header";
+
+#contact {
+    font-size: 18px;
+}
+
+section { //Extend copiees everything and then you can add/switch additional stuff under as stylesheets work top to bottom
+    @extend header;
+    background: lightcoral
+}
+
+
+
+

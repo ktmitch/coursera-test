@@ -1,0 +1,23 @@
+@mixin flexCenter($direction, $size) { //mixin to use anywhere, parameter direction to flip directions, bg to switch backgrounds between mixins use like JS 
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: $direction;
+    font-size: $size;
+}
+
+header {
+    @include flexCenter(column, 25px);
+    background: $prim;
+    width: 100%;
+    h1 {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    button {
+        background: rgb(206, 206, 206);
+        &:hover {
+            cursor: pointer;
+        }
+    }
+}
