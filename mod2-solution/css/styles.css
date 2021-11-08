@@ -1,0 +1,109 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+}
+
+/*Heading */
+
+h1 {
+    text-align: center;
+}
+
+.top-right {
+    position: relative;
+    bottom: 20px;
+    right: 0px;
+    float: right;
+}
+
+.container-full {
+    width: 100%;
+}
+
+.floater {
+    float: left;
+    position: relative;
+    padding: 20px;
+}
+
+.pad {
+    padding: 10px;
+}
+
+/* Background */
+
+.bg-title-1 {
+    background: rgb(226, 114, 114);
+    border: 1px solid black;
+}
+
+.bg-title-2 {
+    background: rgb(138, 228, 130);
+    border: 1px solid black;
+}
+
+.bg-title-3 {
+    background: rgb(105, 168, 240);
+    border: 1px solid black;
+}
+
+.bg-text {
+    background: lightgray;
+    border: 1px solid black;
+}
+
+/* Or [class*="col-"] {
+    float: left;
+  } */
+
+
+@media only screen and (min-width: 992px) {
+    .col-1-lg {width: 8.33%;}
+    .col-2-lg {width: 16.66%;}
+    .col-3-lg {width: 25%;}
+    .col-4-lg {width: 33.3%;}
+    .col-5-lg {width: 41.6%;}
+    .col-6-lg {width: 50%;}
+    .col-7-lg {width: 58.33%;}
+    .col-8-lg {width: 66.6%;}
+    .col-9-lg {width: 75%;}
+    .col-10-lg {width: 83.3%;}
+    .col-11-lg {width: 91.6%;}
+    .col-12-lg {width: 100%;}
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px)  {
+    .col-1-md {width: 8.33%;}
+    .col-2-md {width: 16.66%;}
+    .col-3-md {width: 25%;}
+    .col-4-md {width: 33.3%;}
+    .col-5-md {width: 41.6%;}
+    .col-6-md {width: 50%;}
+    .col-7-md {width: 58.33%;}
+    .col-8-md{width: 66.6%;}
+    .col-9-md {width: 75%;}
+    .col-10-md {width: 83.3%;}
+    .col-11-md {width: 91.6%;}
+    .col-12-md {width: 100%;}
+}
+
+@media only screen and (max-width: 767px) {
+
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.3%;}
+    .col-5 {width: 41.6%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.6%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.3%;}
+    .col-11 {width: 91.6%;}
+    .col-12 {width: 100%;}
+
+    /* min-width 992px 
+    max-width 991px min-768px
+    max-width 767px */
+}
